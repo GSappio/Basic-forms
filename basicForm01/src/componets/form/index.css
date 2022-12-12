@@ -1,0 +1,77 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    font: 12pt Arial;
+}
+
+body {
+    background-image: url('../../../public/img/vista-da-cidade-de-nova-york-eua_53876-160509.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+tbody {
+        background-color: #DCDCDC	;
+        width: 480px;
+        height: 280px;
+        border: none;
+        border-radius: 15px;
+        border-style: groove;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    
+}
+
+input {
+    
+    border-radius: 10px;
+    height: 35px;
+    width: 420px;
+    border: none;
+    text-align: center;
+    
+}
+
+input:focus {
+    outline: 1px solid #C0C0C0;
+}
+
+
+button {
+    border: none;
+    border-radius: 5px;
+    border-style:solid;
+    background-color: #42B72A;
+    color: #E9F2FE;
+    height: 35px;
+    width: 420px;
+    margin: 15px; /* altura do botao */
+}
+
+button:focus {
+    outline: 1px solid #C0C0C0;
+}
+
+tbody div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+}
+
+tbody h1 { 
+    color: #1877F2;
+    margin-top: 30px; /* altura do h1 */
+}
+
+tbody div {  
+    height: 120px;  /* altura do input */
+}
+
